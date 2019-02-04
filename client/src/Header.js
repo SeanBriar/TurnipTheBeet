@@ -1,7 +1,3 @@
-import React, { Component } from "react";
-import "./styles/main.css";
-
-
 class Header extends Component {
   render(){
     return (
@@ -13,22 +9,10 @@ class Header extends Component {
             <li>Add a Recipie</li>
             <li>About</li>
             <li>Playlists</li>
-          </ul>
+          <ul>
         </div>
       </div>
     )
   }
+
 }
-
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header/>
-      </div>
-    );
-  }
-}
-
-export default App;
